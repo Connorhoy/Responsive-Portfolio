@@ -406,13 +406,13 @@ h4 {
           transform: rotate(-10deg);
 }
 
-@media (max-width: 980px) {
+@media screen (max-width: 980px) {
   }
 
 
-@media (max-width: 768px) {
+@media screen (max-width: 768px) {
   }
 
 
-@media (max-width: 640px) {
+@media screen (max-width: 640px) {
   }
