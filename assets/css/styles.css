@@ -1,6 +1,11 @@
+
+
+
 body {
     background-image: url("http://i.imgur.com/BfZ3euo.png");
 }
+
+
 
 header {
     margin: 0 auto;
@@ -406,13 +411,1252 @@ h4 {
           transform: rotate(-10deg);
 }
 
-@media screen (max-width: 980px) {
-  }
+/* CSS For Vertically Aligned Tablets */
+
+@media only screen and (max-width: 768px) {
 
 
-@media screen (max-width: 768px) {
-  }
+body {
+    background-image: url("http://i.imgur.com/BfZ3euo.png");
+    min-height: 1000px;
+}
 
 
-@media screen (max-width: 640px) {
-  }
+
+header {
+    margin: 0 auto;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    position: absolute;
+    height: 84px;
+    margin-right: 15px;
+}
+
+.headername {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 250px;
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    height: 76%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h1 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav {
+    position: absolute;
+    top: 30px;
+    left: 400px;
+    color: grey;
+    font-size: 16px;
+    padding: 5px;
+}
+.indexnav {
+    position: absolute;
+    top: 30px;
+    left: 400px;
+    color: grey;
+    font-size: 16px;
+    padding: 5px;   
+}
+
+a {
+    color: #cccccc;
+    text-decoration: none;
+    margin: 0px 10px 0px 10px;
+    font-family:'Georgia', Times, 'Times New Roman', serif ;
+}
+
+nav a:hover {
+    background-color: #4aaaa5;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.img1 {
+   display: inline-block;
+   margin: 5px 15px;
+   float: left;
+   border: solid 3px lightgrey;
+}
+
+.header2 {
+    color: #4aaaa5;
+    font-weight: bold;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin: 25px;
+    border-bottom: 3px solid lightgrey;
+    font-size: 30px;
+    padding: 15px; 
+}
+
+.header3 {
+    color: #4aaaa5;
+    font-weight: bold;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin-left: 22px;
+    border: solid 2px #cccccc;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.imgtext {
+    position: absolute;
+    left: 40px;
+    top: 150px;
+    width: 650px;
+    height: 490px;
+    padding: 10px;
+    border: 1px solid gray;
+    margin: 0; 
+    background-color: #ffffff;
+    color: #777777;
+    font-family: arial;
+    font-size: 17px;
+}
+
+/* Social Buttons for all three pages. */
+.github1 {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 40px;
+    top: 730px;
+}
+
+.linkedin1 {
+    width: 0px;
+    height: 0px;
+    position: relative;
+    left: 120px;
+    top: 715px;
+}
+
+.stack1 {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 200px;
+    top: 715px;
+}
+
+.github2 {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 0px;
+    top: -55px;
+}
+
+.linkedin2 {
+    width: 0px;
+    height: 0px;
+    position: relative;
+    left: 70px;
+    top: -70px;
+}
+
+.stack2 {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 140px;
+    top: -70px;
+}
+
+.github3 {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 0px;
+    top: -100px;
+}
+
+.linkedin3 {
+    width: 0px;
+    height: 0px;
+    position: relative;
+    left: 75px;
+    top: -115px;
+}
+
+.stack3 {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 150px;
+    top: -115px;
+}
+
+.connect-with-me {
+    width: 300px;
+    height: 140px;
+    left: 40px;
+    top: 680px;
+    border: 1px solid gray;
+    position: absolute;
+    background-color: #fff;
+    padding: 1px;
+    vertical-align: top;
+}
+
+.imgbuttons {
+    margin-left: 12px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+/* End of CSS work for index.html.*/
+
+/* Beginning of work for contact.html */
+
+.contactform {
+    display: inline-block;
+    left: 38px;
+    top: 150px;
+    width: 650px;
+    height: 500px;
+    position: relative;
+    border: solid 1px grey;
+    background-color: #fff;
+    padding-top: 20px;
+}
+
+label {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    color: #888888;
+    margin-top: 5px;
+    padding-left: 15px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+input {
+    padding: 10px;
+    width: 90%;
+    color: #cccccc;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+button {
+    border: none;
+    background-color: #4aaaa5;
+    padding: 10px 20px 10px 20px;
+    color: #ffffff;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+#message {
+    padding-left: 10px; 
+    margin-left: 15px;
+}
+
+.connect-with-me2 {
+    width: 300px;
+    height: 150px;
+    left: 0px;
+    top: 40px;
+    border: 1px solid gray;
+    position: relative;
+    background-color: #fff;
+    padding: 1px;
+    vertical-align: top;
+}
+
+/* End of contact page CSS */
+
+/* Beginning of portfolio page CSS */
+.connect-with-me3 {
+    width: 330px;
+    height: 150px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid gray;
+    position: relative;
+    background-color: #fff;
+    padding: 1px;
+    vertical-align: top;
+}
+
+.portfolio {
+    display: inline-block;
+    width: 650px;
+    height: 750px;
+    left: 40px;
+    top: 150px;
+    position: relative;
+    border: solid 1px grey;
+    background-color: #fff;
+    padding-top: 20px;
+}
+
+.portfolioheader {
+    margin-left: 15px;
+    margin-right: 30px;
+}
+
+figure {
+
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.portfolio-anchor {
+    margin: 0 auto;
+}
+
+.portfolio-box {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    background-color: black;
+}
+
+.portfolio-image {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.portfolio-box-banner {
+    width: 99%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 1px;
+    margin: 0 auto;
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    left: 0px;
+}
+
+h4 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.footer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    background: #888;
+    color: #cccccc;
+    border-top: 10px #4aaaa5 solid;
+    box-sizing: border-box;
+    position: absolute;
+    top: 900px;
+    left: 0px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer2 {
+    width: 1520px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #888;
+    color: #cccccc;
+    border-top: 10px #4aaaa5 solid;
+    position: relative;
+    left: -140px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer3 {
+    width: 1520px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #888;
+    color: #cccccc;
+    border-top: 10px #4aaaa5 solid;
+    position: relative;
+    left: -140px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.portfolio-image {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.portfolio-image:hover {
+  -webkit-filter: blur(5px);
+
+}
+
+.social {
+    -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+ .social:hover {
+ -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+}
+
+/* CSS For mobile phones. */
+
+@media only screen and (max-width: 640px) {
+
+body {
+    background-image: url("http://i.imgur.com/BfZ3euo.png");
+}
+
+
+
+header {
+    overflow:initial;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 130px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    position: static;
+    margin-right: 15px;
+}
+
+.headername {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+    position: static;
+    left: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h1 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav {
+    position: absolute;
+    top: 90px;
+    left: 150px;
+    color: grey;
+    font-size: 24px;
+    padding: 5px;
+}
+.indexnav {
+    position: absolute;
+    top: 90px;
+    left: 150px;
+    color: grey;
+    font-size: 24px;
+    padding: 5px;   
+}
+
+a {
+    color: #cccccc;
+    text-decoration: none;
+    margin: 0px 10px 0px 10px;
+    font-family:'Georgia', Times, 'Times New Roman', serif ;
+}
+
+nav a:hover {
+    background-color: #4aaaa5;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.img1 {
+   display: inline-block;
+   margin: 5px 15px;
+   float: left;
+   border: solid 3px lightgrey;
+}
+
+.header2 {
+    color: #4aaaa5;
+    font-weight: bold;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin: 25px;
+    border-bottom: 3px solid lightgrey;
+    font-size: 30px;
+    padding: 15px; 
+}
+
+.header3 {
+    color: #4aaaa5;
+    font-weight: bold;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin-left: 22px;
+    border: solid 2px #cccccc;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.imgtext {
+    position: absolute;
+    left: 7px;
+    top: 150px;
+    width: 587px;
+    height: 520px;
+    padding: 10px;
+    border: 1px solid gray;
+    margin: 0; 
+    background-color: #ffffff;
+    color: #777777;
+    font-family: arial;
+    font-size: 17px;
+}
+
+/* Social Buttons for all three pages. */
+.github1 {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 0px;
+    top: 620px;
+}
+
+.linkedin1 {
+    width: 0px;
+    height: 0px;
+    position: relative;
+    left: 72px;
+    top: 605px;
+}
+
+.stack1 {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 150px;
+    top: 605px;
+}
+
+.github2 {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 0px;
+    top: -55px;
+}
+
+.linkedin2 {
+    width: 0px;
+    height: 0px;
+    position: relative;
+    left: 70px;
+    top: -70px;
+}
+
+.stack2 {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 140px;
+    top: -70px;
+}
+
+.github3 {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 0px;
+    top: -55px;
+}
+
+.linkedin3 {
+    width: 0px;
+    height: 0px;
+    position: relative;
+    left: 75px;
+    top: -70px;
+}
+
+.stack3 {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 150px;
+    top: -70px;
+}
+
+.connect-with-me {
+    width: 300px;
+    height: 140px;
+    left: 7px;
+    top: 710px;
+    border: 1px solid gray;
+    position: absolute;
+    background-color: #fff;
+    padding: 1px;
+    vertical-align: top;
+}
+
+.imgbuttons {
+    margin-left: 12px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+/* End of CSS work for index.html.*/
+
+/* Beginning of work for contact.html */
+
+.contactform {
+    display: inline-block;
+    left: 0px;
+    top: 7px;
+    width: 605px;
+    height: 500px;
+    position: relative;
+    border: solid 1px grey;
+    background-color: #fff;
+    padding-top: 20px;
+}
+
+label {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    color: #888888;
+    margin-top: 5px;
+    padding-left: 15px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+input {
+    padding: 10px;
+    width: 90%;
+    color: #cccccc;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+button {
+    border: none;
+    background-color: #4aaaa5;
+    padding: 10px 20px 10px 20px;
+    color: #ffffff;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+#message {
+    padding-left: 10px; 
+    margin-left: 15px;
+}
+
+.connect-with-me2 {
+    width: 300px;
+    height: 150px;
+    left: 0px;
+    top: 40px;
+    border: 1px solid gray;
+    position: relative;
+    background-color: #fff;
+    padding: 1px;
+    vertical-align: top;
+}
+
+/* End of contact page CSS */
+
+/* Beginning of portfolio page CSS */
+.connect-with-me3 {
+    width: 330px;
+    height: 150px;
+    left: 0px;
+    top: 40px;
+    border: 1px solid gray;
+    position: relative;
+    background-color: #fff;
+    padding: 1px;
+    vertical-align: top;
+}
+
+.portfolio {
+    display: inline-block;
+    width: 550px;
+    height: 780px;
+    left: 0px;
+    top: 5px;
+    position: relative;
+    border: solid 1px grey;
+    background-color: #fff;
+    padding-top: 20px;
+}
+
+.portfolioheader {
+    margin-left: 15px;
+    margin-right: 30px;
+}
+
+figure {
+
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.portfolio-anchor {
+    margin: 0 auto;
+}
+
+.portfolio-box {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    background-color: black;
+}
+
+.portfolio-image {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.portfolio-box-banner {
+    width: 99%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 1px;
+    margin: 0 auto;
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    left: 0px;
+}
+
+h4 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.footer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    background: #888;
+    color: #cccccc;
+    border-top: 10px #4aaaa5 solid;
+    box-sizing: border-box;
+    position: absolute;
+    top: 900px;
+    left: 0px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer2 {
+    width: 1520px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #888;
+    color: #cccccc;
+    border-top: 10px #4aaaa5 solid;
+    position: static;
+    left: -140px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer3 {
+    width: 1520px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #888;
+    color: #cccccc;
+    border-top: 10px #4aaaa5 solid;
+    position: relative;
+    left: -140px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.portfolio-image {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.portfolio-image:hover {
+  -webkit-filter: blur(5px);
+
+}
+
+.social {
+    -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+ .social:hover {
+ -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+}
+
+/* CSS For regular desktop screens.*/
+
+@media only screen and (max-width: 980px) {
+
+body {
+    background-image: url("http://i.imgur.com/BfZ3euo.png");
+}
+
+
+
+header {
+    overflow:initial;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 130px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    position: static;
+    margin-right: 15px;
+}
+
+.headername {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+    position: static;
+    left: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h1 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav {
+    position: absolute;
+    top: 90px;
+    left: 150px;
+    color: grey;
+    font-size: 24px;
+    padding: 5px;
+}
+.indexnav {
+    position: absolute;
+    top: 90px;
+    left: 150px;
+    color: grey;
+    font-size: 24px;
+    padding: 5px;   
+}
+
+a {
+    color: #cccccc;
+    text-decoration: none;
+    margin: 0px 10px 0px 10px;
+    font-family:'Georgia', Times, 'Times New Roman', serif ;
+}
+
+nav a:hover {
+    background-color: #4aaaa5;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.img1 {
+   display: inline-block;
+   margin: 5px 15px;
+   float: left;
+   border: solid 3px lightgrey;
+}
+
+.header2 {
+    color: #4aaaa5;
+    font-weight: bold;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin: 25px;
+    border-bottom: 3px solid lightgrey;
+    font-size: 30px;
+    padding: 15px; 
+}
+
+.header3 {
+    color: #4aaaa5;
+    font-weight: bold;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin-left: 22px;
+    border: solid 2px #cccccc;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.imgtext {
+    position: absolute;
+    left: 7px;
+    top: 150px;
+    width: 587px;
+    height: 520px;
+    padding: 10px;
+    border: 1px solid gray;
+    margin: 0; 
+    background-color: #ffffff;
+    color: #777777;
+    font-family: arial;
+    font-size: 17px;
+}
+
+/* Social Buttons for all three pages. */
+.github1 {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 0px;
+    top: 620px;
+}
+
+.linkedin1 {
+    width: 0px;
+    height: 0px;
+    position: relative;
+    left: 72px;
+    top: 605px;
+}
+
+.stack1 {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 150px;
+    top: 605px;
+}
+
+.github2 {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 0px;
+    top: -55px;
+}
+
+.linkedin2 {
+    width: 0px;
+    height: 0px;
+    position: relative;
+    left: 70px;
+    top: -70px;
+}
+
+.stack2 {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 140px;
+    top: -70px;
+}
+
+.github3 {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 0px;
+    top: -55px;
+}
+
+.linkedin3 {
+    width: 0px;
+    height: 0px;
+    position: relative;
+    left: 75px;
+    top: -70px;
+}
+
+.stack3 {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 150px;
+    top: -70px;
+}
+
+.connect-with-me {
+    width: 300px;
+    height: 140px;
+    left: 7px;
+    top: 710px;
+    border: 1px solid gray;
+    position: absolute;
+    background-color: #fff;
+    padding: 1px;
+    vertical-align: top;
+}
+
+.imgbuttons {
+    margin-left: 12px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+/* End of CSS work for index.html.*/
+
+/* Beginning of work for contact.html */
+
+.contactform {
+    display: inline-block;
+    left: 0px;
+    top: 7px;
+    width: 605px;
+    height: 500px;
+    position: relative;
+    border: solid 1px grey;
+    background-color: #fff;
+    padding-top: 20px;
+}
+
+label {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    color: #888888;
+    margin-top: 5px;
+    padding-left: 15px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+input {
+    padding: 10px;
+    width: 90%;
+    color: #cccccc;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+button {
+    border: none;
+    background-color: #4aaaa5;
+    padding: 10px 20px 10px 20px;
+    color: #ffffff;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+#message {
+    padding-left: 10px; 
+    margin-left: 15px;
+}
+
+.connect-with-me2 {
+    width: 300px;
+    height: 150px;
+    left: 0px;
+    top: 40px;
+    border: 1px solid gray;
+    position: relative;
+    background-color: #fff;
+    padding: 1px;
+    vertical-align: top;
+}
+
+/* End of contact page CSS */
+
+/* Beginning of portfolio page CSS */
+.connect-with-me3 {
+    width: 330px;
+    height: 150px;
+    left: 0px;
+    top: 40px;
+    border: 1px solid gray;
+    position: relative;
+    background-color: #fff;
+    padding: 1px;
+    vertical-align: top;
+}
+
+.portfolio {
+    display: inline-block;
+    width: 550px;
+    height: 780px;
+    left: 0px;
+    top: 5px;
+    position: relative;
+    border: solid 1px grey;
+    background-color: #fff;
+    padding-top: 20px;
+}
+
+.portfolioheader {
+    margin-left: 15px;
+    margin-right: 30px;
+}
+
+figure {
+
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.portfolio-anchor {
+    margin: 0 auto;
+}
+
+.portfolio-box {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    background-color: black;
+}
+
+.portfolio-image {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.portfolio-box-banner {
+    width: 99%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 1px;
+    margin: 0 auto;
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    left: 0px;
+}
+
+h4 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.footer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    background: #888;
+    color: #cccccc;
+    border-top: 10px #4aaaa5 solid;
+    box-sizing: border-box;
+    position: absolute;
+    top: 900px;
+    left: 0px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer2 {
+    width: 1520px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #888;
+    color: #cccccc;
+    border-top: 10px #4aaaa5 solid;
+    position: static;
+    left: -140px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer3 {
+    width: 1520px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #888;
+    color: #cccccc;
+    border-top: 10px #4aaaa5 solid;
+    position: relative;
+    left: -140px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.portfolio-image {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.portfolio-image:hover {
+  -webkit-filter: blur(5px);
+
+}
+
+.social {
+    -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+ .social:hover {
+ -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+}
