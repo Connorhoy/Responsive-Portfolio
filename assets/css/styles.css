@@ -1256,7 +1256,6 @@ body {
 
 
 header {
-    overflow:initial;
     top: 0px;
     left: 0px;
     width: 100%;
@@ -1294,10 +1293,11 @@ nav {
     font-size: 24px;
     padding: 5px;
 }
+
 .indexnav {
     position: absolute;
     top: 90px;
-    left: 150px;
+    left: 120px;
     color: grey;
     font-size: 24px;
     padding: 5px;   
